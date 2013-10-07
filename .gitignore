@@ -229,6 +229,10 @@ pip-log.txt
  # … don’t forget to [git add "*"] (quotes are required!) when adding new files, or git will silently ignore them
  #
 
+# OS X only (not needed on other platforms)
+ .DS_Store
+ *.swp
+ *.Trashes
 
 # All platforms
  Library
@@ -238,19 +242,3 @@ pip-log.txt
  *.unityproj
  *.sln
  *.userprefs
-
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uilds/
-
-*.csproj
-*.vcproject
-*.unityproj
-*.sln
-*.exe
-*.app
-*.pidb
-.DS_Store
-Thumbs.db
-Desktop.ini
